@@ -1,0 +1,631 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		046F6A882B06312400BD6EE7 /* JSONManager2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 046F6A872B06312400BD6EE7 /* JSONManager2.swift */; };
+		046F6A8F2B06564900BD6EE7 /* Unknown.png in Resources */ = {isa = PBXBuildFile; fileRef = 046F6A892B06564900BD6EE7 /* Unknown.png */; };
+		046F6A902B06564900BD6EE7 /* png-clipart-magic-the-gathering-commander-mana-magic-points-playing-card-others-game-color.png in Resources */ = {isa = PBXBuildFile; fileRef = 046F6A8A2B06564900BD6EE7 /* png-clipart-magic-the-gathering-commander-mana-magic-points-playing-card-others-game-color.png */; };
+		046F6A912B06564900BD6EE7 /* png-clipart-magic-the-gathering-pro-tour-magic-points-wizards-of-the-coast-playing-card-gather-game-leaf-thumbnail.png in Resources */ = {isa = PBXBuildFile; fileRef = 046F6A8B2B06564900BD6EE7 /* png-clipart-magic-the-gathering-pro-tour-magic-points-wizards-of-the-coast-playing-card-gather-game-leaf-thumbnail.png */; };
+		046F6A922B06564900BD6EE7 /* png-clipart-black-ink-drop-magic-the-gathering-mana-magic-points-symbol-playing-card-symbol-miscellaneous-blue-thumbnail.png in Resources */ = {isa = PBXBuildFile; fileRef = 046F6A8C2B06564900BD6EE7 /* png-clipart-black-ink-drop-magic-the-gathering-mana-magic-points-symbol-playing-card-symbol-miscellaneous-blue-thumbnail.png */; };
+		046F6A932B06564900BD6EE7 /* png-clipart-magic-the-gathering-magic-points-mana-game-playing-card-magic-circle-miscellaneous-game-thumbnail.png in Resources */ = {isa = PBXBuildFile; fileRef = 046F6A8D2B06564900BD6EE7 /* png-clipart-magic-the-gathering-magic-points-mana-game-playing-card-magic-circle-miscellaneous-game-thumbnail.png */; };
+		046F6A942B06564A00BD6EE7 /* png-clipart-magic-the-gathering-pro-tour-magic-points-mana-playing-card-creature-miscellaneous-game-thumbnail.png in Resources */ = {isa = PBXBuildFile; fileRef = 046F6A8E2B06564900BD6EE7 /* png-clipart-magic-the-gathering-pro-tour-magic-points-mana-playing-card-creature-miscellaneous-game-thumbnail.png */; };
+		046F6ACC2B068D1400BD6EE7 /* Legalities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 046F6ACB2B068D1400BD6EE7 /* Legalities.swift */; };
+		046F6ACE2B068D2B00BD6EE7 /* LegalitiesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 046F6ACD2B068D2B00BD6EE7 /* LegalitiesView.swift */; };
+		04DFFC2D2B0618CC001F9962 /* MTG_YuhuApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04DFFC2C2B0618CC001F9962 /* MTG_YuhuApp.swift */; };
+		04DFFC2F2B0618CC001F9962 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04DFFC2E2B0618CC001F9962 /* ContentView.swift */; };
+		04DFFC312B0618CD001F9962 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04DFFC302B0618CD001F9962 /* Assets.xcassets */; };
+		04DFFC342B0618CD001F9962 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04DFFC332B0618CD001F9962 /* Preview Assets.xcassets */; };
+		04DFFC3E2B0618CE001F9962 /* MTG_YuhuTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04DFFC3D2B0618CE001F9962 /* MTG_YuhuTests.swift */; };
+		04DFFC482B0618CE001F9962 /* MTG_YuhuUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04DFFC472B0618CE001F9962 /* MTG_YuhuUITests.swift */; };
+		04DFFC4A2B0618CE001F9962 /* MTG_YuhuUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04DFFC492B0618CE001F9962 /* MTG_YuhuUITestsLaunchTests.swift */; };
+		04DFFC572B061920001F9962 /* WOT-Scryfall.json in Resources */ = {isa = PBXBuildFile; fileRef = 04DFFC562B061920001F9962 /* WOT-Scryfall.json */; };
+		04DFFC592B06192F001F9962 /* JSONManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04DFFC582B06192F001F9962 /* JSONManager.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		04DFFC3A2B0618CE001F9962 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 04DFFC212B0618CC001F9962 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 04DFFC282B0618CC001F9962;
+			remoteInfo = MTG_Yuhu;
+		};
+		04DFFC442B0618CE001F9962 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 04DFFC212B0618CC001F9962 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 04DFFC282B0618CC001F9962;
+			remoteInfo = MTG_Yuhu;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		046F6A872B06312400BD6EE7 /* JSONManager2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSONManager2.swift; sourceTree = "<group>"; };
+		046F6A892B06564900BD6EE7 /* Unknown.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Unknown.png; path = ../../../Downloads/Unknown.png; sourceTree = "<group>"; };
+		046F6A8A2B06564900BD6EE7 /* png-clipart-magic-the-gathering-commander-mana-magic-points-playing-card-others-game-color.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "png-clipart-magic-the-gathering-commander-mana-magic-points-playing-card-others-game-color.png"; path = "../../../Downloads/png-clipart-magic-the-gathering-commander-mana-magic-points-playing-card-others-game-color.png"; sourceTree = "<group>"; };
+		046F6A8B2B06564900BD6EE7 /* png-clipart-magic-the-gathering-pro-tour-magic-points-wizards-of-the-coast-playing-card-gather-game-leaf-thumbnail.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "png-clipart-magic-the-gathering-pro-tour-magic-points-wizards-of-the-coast-playing-card-gather-game-leaf-thumbnail.png"; path = "../../../Downloads/png-clipart-magic-the-gathering-pro-tour-magic-points-wizards-of-the-coast-playing-card-gather-game-leaf-thumbnail.png"; sourceTree = "<group>"; };
+		046F6A8C2B06564900BD6EE7 /* png-clipart-black-ink-drop-magic-the-gathering-mana-magic-points-symbol-playing-card-symbol-miscellaneous-blue-thumbnail.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "png-clipart-black-ink-drop-magic-the-gathering-mana-magic-points-symbol-playing-card-symbol-miscellaneous-blue-thumbnail.png"; path = "../../../Downloads/png-clipart-black-ink-drop-magic-the-gathering-mana-magic-points-symbol-playing-card-symbol-miscellaneous-blue-thumbnail.png"; sourceTree = "<group>"; };
+		046F6A8D2B06564900BD6EE7 /* png-clipart-magic-the-gathering-magic-points-mana-game-playing-card-magic-circle-miscellaneous-game-thumbnail.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "png-clipart-magic-the-gathering-magic-points-mana-game-playing-card-magic-circle-miscellaneous-game-thumbnail.png"; path = "../../../Downloads/png-clipart-magic-the-gathering-magic-points-mana-game-playing-card-magic-circle-miscellaneous-game-thumbnail.png"; sourceTree = "<group>"; };
+		046F6A8E2B06564900BD6EE7 /* png-clipart-magic-the-gathering-pro-tour-magic-points-mana-playing-card-creature-miscellaneous-game-thumbnail.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "png-clipart-magic-the-gathering-pro-tour-magic-points-mana-playing-card-creature-miscellaneous-game-thumbnail.png"; path = "../../../Downloads/png-clipart-magic-the-gathering-pro-tour-magic-points-mana-playing-card-creature-miscellaneous-game-thumbnail.png"; sourceTree = "<group>"; };
+		046F6ACB2B068D1400BD6EE7 /* Legalities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Legalities.swift; sourceTree = "<group>"; };
+		046F6ACD2B068D2B00BD6EE7 /* LegalitiesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LegalitiesView.swift; sourceTree = "<group>"; };
+		04DFFC292B0618CC001F9962 /* MTG_Yuhu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MTG_Yuhu.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		04DFFC2C2B0618CC001F9962 /* MTG_YuhuApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MTG_YuhuApp.swift; sourceTree = "<group>"; };
+		04DFFC2E2B0618CC001F9962 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		04DFFC302B0618CD001F9962 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		04DFFC332B0618CD001F9962 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		04DFFC392B0618CE001F9962 /* MTG_YuhuTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MTG_YuhuTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		04DFFC3D2B0618CE001F9962 /* MTG_YuhuTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MTG_YuhuTests.swift; sourceTree = "<group>"; };
+		04DFFC432B0618CE001F9962 /* MTG_YuhuUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MTG_YuhuUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		04DFFC472B0618CE001F9962 /* MTG_YuhuUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MTG_YuhuUITests.swift; sourceTree = "<group>"; };
+		04DFFC492B0618CE001F9962 /* MTG_YuhuUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MTG_YuhuUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		04DFFC562B061920001F9962 /* WOT-Scryfall.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = "WOT-Scryfall.json"; path = "../../../../Downloads/WOT-Scryfall.json"; sourceTree = "<group>"; };
+		04DFFC582B06192F001F9962 /* JSONManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSONManager.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		04DFFC262B0618CC001F9962 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04DFFC362B0618CE001F9962 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04DFFC402B0618CE001F9962 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		04DFFC202B0618CC001F9962 = {
+			isa = PBXGroup;
+			children = (
+				04DFFC2B2B0618CC001F9962 /* MTG_Yuhu */,
+				04DFFC3C2B0618CE001F9962 /* MTG_YuhuTests */,
+				04DFFC462B0618CE001F9962 /* MTG_YuhuUITests */,
+				04DFFC2A2B0618CC001F9962 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		04DFFC2A2B0618CC001F9962 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				04DFFC292B0618CC001F9962 /* MTG_Yuhu.app */,
+				04DFFC392B0618CE001F9962 /* MTG_YuhuTests.xctest */,
+				04DFFC432B0618CE001F9962 /* MTG_YuhuUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		04DFFC2B2B0618CC001F9962 /* MTG_Yuhu */ = {
+			isa = PBXGroup;
+			children = (
+				04DFFC2C2B0618CC001F9962 /* MTG_YuhuApp.swift */,
+				04DFFC2E2B0618CC001F9962 /* ContentView.swift */,
+				046F6ACD2B068D2B00BD6EE7 /* LegalitiesView.swift */,
+				046F6ACB2B068D1400BD6EE7 /* Legalities.swift */,
+				04DFFC302B0618CD001F9962 /* Assets.xcassets */,
+				046F6A8C2B06564900BD6EE7 /* png-clipart-black-ink-drop-magic-the-gathering-mana-magic-points-symbol-playing-card-symbol-miscellaneous-blue-thumbnail.png */,
+				046F6A8A2B06564900BD6EE7 /* png-clipart-magic-the-gathering-commander-mana-magic-points-playing-card-others-game-color.png */,
+				046F6A8D2B06564900BD6EE7 /* png-clipart-magic-the-gathering-magic-points-mana-game-playing-card-magic-circle-miscellaneous-game-thumbnail.png */,
+				046F6A8E2B06564900BD6EE7 /* png-clipart-magic-the-gathering-pro-tour-magic-points-mana-playing-card-creature-miscellaneous-game-thumbnail.png */,
+				046F6A8B2B06564900BD6EE7 /* png-clipart-magic-the-gathering-pro-tour-magic-points-wizards-of-the-coast-playing-card-gather-game-leaf-thumbnail.png */,
+				046F6A892B06564900BD6EE7 /* Unknown.png */,
+				04DFFC322B0618CD001F9962 /* Preview Content */,
+				04DFFC582B06192F001F9962 /* JSONManager.swift */,
+				046F6A872B06312400BD6EE7 /* JSONManager2.swift */,
+			);
+			path = MTG_Yuhu;
+			sourceTree = "<group>";
+		};
+		04DFFC322B0618CD001F9962 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				04DFFC562B061920001F9962 /* WOT-Scryfall.json */,
+				04DFFC332B0618CD001F9962 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		04DFFC3C2B0618CE001F9962 /* MTG_YuhuTests */ = {
+			isa = PBXGroup;
+			children = (
+				04DFFC3D2B0618CE001F9962 /* MTG_YuhuTests.swift */,
+			);
+			path = MTG_YuhuTests;
+			sourceTree = "<group>";
+		};
+		04DFFC462B0618CE001F9962 /* MTG_YuhuUITests */ = {
+			isa = PBXGroup;
+			children = (
+				04DFFC472B0618CE001F9962 /* MTG_YuhuUITests.swift */,
+				04DFFC492B0618CE001F9962 /* MTG_YuhuUITestsLaunchTests.swift */,
+			);
+			path = MTG_YuhuUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		04DFFC282B0618CC001F9962 /* MTG_Yuhu */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04DFFC4D2B0618CE001F9962 /* Build configuration list for PBXNativeTarget "MTG_Yuhu" */;
+			buildPhases = (
+				04DFFC252B0618CC001F9962 /* Sources */,
+				04DFFC262B0618CC001F9962 /* Frameworks */,
+				04DFFC272B0618CC001F9962 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MTG_Yuhu;
+			productName = MTG_Yuhu;
+			productReference = 04DFFC292B0618CC001F9962 /* MTG_Yuhu.app */;
+			productType = "com.apple.product-type.application";
+		};
+		04DFFC382B0618CE001F9962 /* MTG_YuhuTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04DFFC502B0618CE001F9962 /* Build configuration list for PBXNativeTarget "MTG_YuhuTests" */;
+			buildPhases = (
+				04DFFC352B0618CE001F9962 /* Sources */,
+				04DFFC362B0618CE001F9962 /* Frameworks */,
+				04DFFC372B0618CE001F9962 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				04DFFC3B2B0618CE001F9962 /* PBXTargetDependency */,
+			);
+			name = MTG_YuhuTests;
+			productName = MTG_YuhuTests;
+			productReference = 04DFFC392B0618CE001F9962 /* MTG_YuhuTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		04DFFC422B0618CE001F9962 /* MTG_YuhuUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04DFFC532B0618CE001F9962 /* Build configuration list for PBXNativeTarget "MTG_YuhuUITests" */;
+			buildPhases = (
+				04DFFC3F2B0618CE001F9962 /* Sources */,
+				04DFFC402B0618CE001F9962 /* Frameworks */,
+				04DFFC412B0618CE001F9962 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				04DFFC452B0618CE001F9962 /* PBXTargetDependency */,
+			);
+			name = MTG_YuhuUITests;
+			productName = MTG_YuhuUITests;
+			productReference = 04DFFC432B0618CE001F9962 /* MTG_YuhuUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		04DFFC212B0618CC001F9962 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					04DFFC282B0618CC001F9962 = {
+						CreatedOnToolsVersion = 15.0;
+					};
+					04DFFC382B0618CE001F9962 = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = 04DFFC282B0618CC001F9962;
+					};
+					04DFFC422B0618CE001F9962 = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = 04DFFC282B0618CC001F9962;
+					};
+				};
+			};
+			buildConfigurationList = 04DFFC242B0618CC001F9962 /* Build configuration list for PBXProject "MTG_Yuhu" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 04DFFC202B0618CC001F9962;
+			productRefGroup = 04DFFC2A2B0618CC001F9962 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				04DFFC282B0618CC001F9962 /* MTG_Yuhu */,
+				04DFFC382B0618CE001F9962 /* MTG_YuhuTests */,
+				04DFFC422B0618CE001F9962 /* MTG_YuhuUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		04DFFC272B0618CC001F9962 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04DFFC342B0618CD001F9962 /* Preview Assets.xcassets in Resources */,
+				04DFFC312B0618CD001F9962 /* Assets.xcassets in Resources */,
+				046F6A932B06564900BD6EE7 /* png-clipart-magic-the-gathering-magic-points-mana-game-playing-card-magic-circle-miscellaneous-game-thumbnail.png in Resources */,
+				046F6A912B06564900BD6EE7 /* png-clipart-magic-the-gathering-pro-tour-magic-points-wizards-of-the-coast-playing-card-gather-game-leaf-thumbnail.png in Resources */,
+				046F6A8F2B06564900BD6EE7 /* Unknown.png in Resources */,
+				046F6A922B06564900BD6EE7 /* png-clipart-black-ink-drop-magic-the-gathering-mana-magic-points-symbol-playing-card-symbol-miscellaneous-blue-thumbnail.png in Resources */,
+				046F6A942B06564A00BD6EE7 /* png-clipart-magic-the-gathering-pro-tour-magic-points-mana-playing-card-creature-miscellaneous-game-thumbnail.png in Resources */,
+				046F6A902B06564900BD6EE7 /* png-clipart-magic-the-gathering-commander-mana-magic-points-playing-card-others-game-color.png in Resources */,
+				04DFFC572B061920001F9962 /* WOT-Scryfall.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04DFFC372B0618CE001F9962 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04DFFC412B0618CE001F9962 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		04DFFC252B0618CC001F9962 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				046F6A882B06312400BD6EE7 /* JSONManager2.swift in Sources */,
+				04DFFC2F2B0618CC001F9962 /* ContentView.swift in Sources */,
+				04DFFC592B06192F001F9962 /* JSONManager.swift in Sources */,
+				046F6ACE2B068D2B00BD6EE7 /* LegalitiesView.swift in Sources */,
+				04DFFC2D2B0618CC001F9962 /* MTG_YuhuApp.swift in Sources */,
+				046F6ACC2B068D1400BD6EE7 /* Legalities.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04DFFC352B0618CE001F9962 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04DFFC3E2B0618CE001F9962 /* MTG_YuhuTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04DFFC3F2B0618CE001F9962 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04DFFC4A2B0618CE001F9962 /* MTG_YuhuUITestsLaunchTests.swift in Sources */,
+				04DFFC482B0618CE001F9962 /* MTG_YuhuUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		04DFFC3B2B0618CE001F9962 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 04DFFC282B0618CC001F9962 /* MTG_Yuhu */;
+			targetProxy = 04DFFC3A2B0618CE001F9962 /* PBXContainerItemProxy */;
+		};
+		04DFFC452B0618CE001F9962 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 04DFFC282B0618CC001F9962 /* MTG_Yuhu */;
+			targetProxy = 04DFFC442B0618CE001F9962 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		04DFFC4B2B0618CE001F9962 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		04DFFC4C2B0618CE001F9962 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		04DFFC4E2B0618CE001F9962 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"MTG_Yuhu/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Rocca.MTG-Yuhu";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		04DFFC4F2B0618CE001F9962 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"MTG_Yuhu/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Rocca.MTG-Yuhu";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		04DFFC512B0618CE001F9962 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Rocca.MTG-YuhuTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MTG_Yuhu.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MTG_Yuhu";
+			};
+			name = Debug;
+		};
+		04DFFC522B0618CE001F9962 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Rocca.MTG-YuhuTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MTG_Yuhu.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MTG_Yuhu";
+			};
+			name = Release;
+		};
+		04DFFC542B0618CE001F9962 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Rocca.MTG-YuhuUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MTG_Yuhu;
+			};
+			name = Debug;
+		};
+		04DFFC552B0618CE001F9962 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Rocca.MTG-YuhuUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MTG_Yuhu;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		04DFFC242B0618CC001F9962 /* Build configuration list for PBXProject "MTG_Yuhu" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04DFFC4B2B0618CE001F9962 /* Debug */,
+				04DFFC4C2B0618CE001F9962 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04DFFC4D2B0618CE001F9962 /* Build configuration list for PBXNativeTarget "MTG_Yuhu" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04DFFC4E2B0618CE001F9962 /* Debug */,
+				04DFFC4F2B0618CE001F9962 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04DFFC502B0618CE001F9962 /* Build configuration list for PBXNativeTarget "MTG_YuhuTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04DFFC512B0618CE001F9962 /* Debug */,
+				04DFFC522B0618CE001F9962 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04DFFC532B0618CE001F9962 /* Build configuration list for PBXNativeTarget "MTG_YuhuUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04DFFC542B0618CE001F9962 /* Debug */,
+				04DFFC552B0618CE001F9962 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 04DFFC212B0618CC001F9962 /* Project object */;
+}
